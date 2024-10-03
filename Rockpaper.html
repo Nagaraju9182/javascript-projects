@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spock Rock Game</title>
+  <link rel="stylesheet" href="Rackpaper.css">
+</head>
+<body>
+  <h1>Spock Rock Game</h1>
+
+  <div class="game-container">
+    <div class="choices">
+      <button class="choice" data-choice="rock">Rock</button>
+      <button class="choice" data-choice="paper">Paper</button>
+      <button class="choice" data-choice="scissors">Scissors</button>
+      <button class="choice" data-choice="lizard">Lizard</button>
+      <button class="choice" data-choice="spock">Spock</button>
+    </div>
+    
+    <div class="result">
+      <p id="result-text">Make your choice!</p>
+    </div>
+
+    <button id="reset-btn">Reset Game</button>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js"></script>
+
+  
+  <script src="Rockpaper.js"></script>
+</body>
+</html>
