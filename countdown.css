@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34;
+    color: #d71744;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .timer-container {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 3em;
+  }
+  
+  #countdown {
+    font-size: 2em;
+  }
+  
+  #countdown span {
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  #countdown span::after {
+    content: " ";
+  }
+  

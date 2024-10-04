@@ -1,0 +1,29 @@
+body{
+    background: #492bda;
+    margin: 0;
+    padding: 0;
+}
+#infinite-list{
+    background: white;
+    margin-top: 10%;
+    width: 200px;
+    height: 300px;
+    overflow: auto;
+    margin:30px ;
+    padding:20px ;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 10px 40px 0 rgba(47,47,47,1)
+}
+.main{
+    margin-top: 10%;
+
+}
+li{
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid #eee;
+}
+li:hover{
+    background: #ccc;
+}
