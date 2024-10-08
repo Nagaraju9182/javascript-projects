@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math Sprint Game</title>
+  <link rel="stylesheet" href="mathspritgame.css">
+</head>
+<body>
+  <h1>Math Sprint Game</h1>  
+  <div id="gameContainer">
+    <div id="problem">
+      <span id="num1"></span> + <span id="num2"></span> = ?
+    </div>
+    <input type="number" id="answer" placeholder="Your Answer" />
+    <button id="submitAnswer">Submit</button>
+
+    <div id="feedback"></div>
+
+    <div id="scoreboard">
+      <p>Score: <span id="score">0</span></p>
+      <p>Time Left: <span id="timeLeft">30</span> seconds</p>
+    </div>
+  </div>
+
+  <button id="startGame">Start Game</button>
+
+  <script src="mathspritgame.js"></script>
+</body>
+</html>

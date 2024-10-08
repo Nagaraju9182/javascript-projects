@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #toolbar {
+    margin: 10px 0;
+  }
+  
+  canvas {
+    border: 1px solid black;
+    cursor: crosshair;
+    display: block;
+    margin: 0 auto;
+    background-color: #ffffff;
+  }
+  
+  #paintCanvas {
+    width: 800px;
+    height: 600px;
+  }
+  
+  input[type="range"] {
+    margin-left: 10px;
+  }
+  
